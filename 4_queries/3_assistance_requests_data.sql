@@ -12,4 +12,4 @@ FROM students
   JOIN teachers ON teachers.id = teacher_id
   JOIN assignments ON assignments.id = assignment_id
 ORDER BY assistance_duration
-LIMIT 20
+
